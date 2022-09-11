@@ -1,16 +1,7 @@
 import java.util.Scanner;
 
 public class Trapping_Rain_Water {
-    static Scanner s = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        int n = s.nextInt();
-        int[] height = new int[n];
-        for(int i = 0; i < n; i++){
-            height[i] = s.nextInt();
-        }
-        System.out.println(trap(height));
-    }
+    //Driver Code
     private static int trap(int[] height) {
         int[] left = new int[height.length];
         int[] right = new int[height.length];
