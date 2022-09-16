@@ -1,9 +1,6 @@
 //Link : https://leetcode.com/problems/trapping-rain-water/
 public class Trapping_Rain_Water {
     //Driver Code
-    public static void main(String[] args) {
-
-    }
     private static int trap(int[] height) {
         int[] left = new int[height.length];
         int[] right = new int[height.length];
