@@ -1,5 +1,4 @@
 //Link : https://leetcode.com/problems/majority-element/
-
 public class Majority_Element {
 
     //Driver Code
