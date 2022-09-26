@@ -1,4 +1,8 @@
+//Link : https://leetcode.com/problems/majority-element/
+
 public class Majority_Element {
+
+    //Driver Code
     public int majorityElement(int[] nums) {
         int count = 0, answerIndex = 0, n = nums.length / 2;
         for (int i = 0; i < nums.length; i++) {
