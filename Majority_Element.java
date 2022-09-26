@@ -15,6 +15,7 @@ public class Majority_Element {
                 count = 1;
             }
         }
+        count = 0;
         int answer = nums[answerIndex];
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == answer) {
