@@ -3,7 +3,8 @@
 import java.util.Arrays;
 
 public class Rotate_Array {
-    public void rotate(int[] nums, int k) {
+
+    private static void rotate(int[] nums, int k) {
         rotatedArray(k,nums);
         System.out.println(Arrays.toString(nums));
     }
