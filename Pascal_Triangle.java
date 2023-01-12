@@ -5,10 +5,10 @@ import java.util.*;
 public class Pascal_Triangle {
 
     public static List<List<Integer>> generate(int numRows) {
-        if(numRows == 0) return new ArrayList();
-        List<List<Integer>> result = new ArrayList();
+        if(numRows == 0) return new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         for(int i = 1; i <= numRows; i++){
-            ArrayList<Integer> row = new ArrayList();
+            ArrayList<Integer> row = new ArrayList<>();
             for(int j = 0; j < i; j++)
             {
                 if(j == 0 || j == i - 1){
